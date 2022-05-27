@@ -1,4 +1,4 @@
-package com.capgemini.kata;
+package com.ccsw.kata;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,10 +1,10 @@
-package com.capgemini.kata.unit;
+package com.ccsw.kata.unit;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.capgemini.kata.KataRoman;
+import com.ccsw.kata.KataRoman;
 
 /**
  * Kata Roman Test Class
@@ -20,5 +20,11 @@ public class KataRomanTest {
   public void testRecursive() {
 
     assertEquals(this.kataRoman.kataRomanToDecimal("MCCXXXIV"), 1234);
+  }
+
+  @Test
+  public void testRecursiveZero() {
+
+    assertEquals(this.kataRoman.kataRomanToDecimal(""), 0);
   }
 }

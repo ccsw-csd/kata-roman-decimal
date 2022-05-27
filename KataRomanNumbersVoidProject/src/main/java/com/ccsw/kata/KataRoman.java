@@ -1,4 +1,4 @@
-package com.capgemini.kata;
+package com.ccsw.kata;
 
 /**
  * Main Roman Kata Class
