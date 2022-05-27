@@ -1,6 +1,6 @@
 package com.ccsw.kata.unit;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -19,24 +19,24 @@ public class KataRomanTest {
   @Test
   public void testRecursiveRomanToDecimal() {
 
-    assertEquals(this.kataRoman.kataRomanToDecimal("MCCXXXIV"), 1234);
+    assertTrue(this.kataRoman.kataRomanToDecimal("MCCXXXIV") == 1234);
   }
 
   @Test
   public void testRecursiveZeroRomanToDecimal() {
 
-    assertEquals(this.kataRoman.kataRomanToDecimal(""), 0);
+    assertTrue(this.kataRoman.kataRomanToDecimal("") == 0);
   }
 
   @Test
   public void testRecursiveDecimalToRoman() {
 
-    assertEquals(1234, this.kataRoman.kataRomanToDecimal("MCCXXXIV"));
+    assertTrue(1234 == this.kataRoman.kataRomanToDecimal("MCCXXXIV"));
   }
 
   @Test
   public void testRecursiveZeroDecimalToRoman() {
 
-    assertEquals(0, this.kataRoman.kataRomanToDecimal(""));
+    assertTrue(0 == this.kataRoman.kataRomanToDecimal(""));
   }
 }

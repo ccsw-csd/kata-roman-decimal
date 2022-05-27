@@ -50,7 +50,7 @@ public class KataRoman {
     decimalRoman.put(1, "I");
   }
 
-  public int kataRomanToDecimal(String numberRoman) {
+  public Integer kataRomanToDecimal(String numberRoman) {
 
     if (numberRoman.isEmpty()) {
       return 0;
