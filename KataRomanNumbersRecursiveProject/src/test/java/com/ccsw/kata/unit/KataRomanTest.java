@@ -31,12 +31,12 @@ public class KataRomanTest {
   @Test
   public void testRecursiveDecimalToRoman() {
 
-    assertTrue(1234 == this.kataRoman.kataRomanToDecimal("MCCXXXIV"));
+    assertTrue("MCCXXXIV".equals(this.kataRoman.kataDecimalToRoman(1234)));
   }
 
   @Test
   public void testRecursiveZeroDecimalToRoman() {
 
-    assertTrue(0 == this.kataRoman.kataRomanToDecimal(""));
+    assertTrue(this.kataRoman.kataDecimalToRoman(0).isEmpty());
   }
 }

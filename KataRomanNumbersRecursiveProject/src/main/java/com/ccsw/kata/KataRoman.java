@@ -72,6 +72,11 @@ public class KataRoman {
   public String kataDecimalToRoman(Integer numberDecimal) {
 
     Integer numberMap = decimalRoman.floorKey(numberDecimal);
+
+    if (numberMap == null) {
+      return "";
+    }
+
     if (numberDecimal.equals(numberMap)) {
       return decimalRoman.get(numberDecimal);
     }
