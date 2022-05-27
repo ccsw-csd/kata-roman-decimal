@@ -11,3 +11,7 @@ KataRomanNumbersVoidProject/.classpath
 KataRomanNumbersVoidProject/.project
 KataRomanNumbersVoidProject/.settings/org.eclipse.jdt.core.prefs
 KataRomanNumbersVoidProject/.settings/org.eclipse.m2e.core.prefs
+KataRomanNumbersLoopProject/bin/src/test/java/com/ccsw/kata/unit/KataRomanTest.class
+KataRomanNumbersLoopProject/bin/src/main/java/com/ccsw/kata/KataRoman.class
+KataRomanNumbersLoopProject/bin/pom.xml
+KataRomanNumbersLoopProject/bin/.project
