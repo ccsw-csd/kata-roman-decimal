@@ -7,7 +7,7 @@ import java.util.TreeMap;
 /**
  * Main Roman Kata Class
  *
- * @author capgemini
+ * @author ccsw
  *
  */
 public class KataRoman {

@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Main Roman Kata Class
  *
- * @author capgemini
+ * @author ccsw
  *
  */
 public class KataRoman {

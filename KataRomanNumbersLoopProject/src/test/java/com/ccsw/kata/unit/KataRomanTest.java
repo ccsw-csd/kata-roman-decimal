@@ -9,7 +9,7 @@ import com.ccsw.kata.KataRoman;
 /**
  * Kata Roman Test Class
  *
- * @author capgemini
+ * @author ccsw
  *
  */
 public class KataRomanTest {

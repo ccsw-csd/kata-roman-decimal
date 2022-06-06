@@ -3,9 +3,9 @@ package com.ccsw.kata.unit;
 /**
  * Kata Roman Test Class
  *
- * @author capgemini
+ * @author ccsw
  *
  */
-public class KataRomanTest {
+public class RomanConversorTest {
 
 }
